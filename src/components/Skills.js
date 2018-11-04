@@ -12,7 +12,7 @@ import Tabs2 from './Tabs2';
 const styles = {
   title1: {
     textAlign: 'center',
-    marginTop: 24,
+    marginTop: 128,
   },
   card: {
     // minWidth: 575,
@@ -32,7 +32,8 @@ class Skills extends Component {
 
     return (
       <Grid id="container" container direction="row" alignItems="center" justify="space-around"
-      // style={{ borderBottom: '1px solid rgba(0, 0, 0, 0.12)' }} 
+        style={{ marginBottom: 128 }}
+      // style={{ borderBottom: '1px solid rgba(0, 0, 0, 0.12)' }}
       >
         <Hidden smDown>
           <Grid item xs='auto' />
