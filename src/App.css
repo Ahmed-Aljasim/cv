@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'poorrichard';
-  src: url('/fonts/poorrichard.ttf') format('truetype'); 
+  src: url('./fonts/poorrichard.ttf') format('truetype'); 
 }
 
 html, body, #root {
