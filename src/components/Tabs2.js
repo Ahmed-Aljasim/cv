@@ -70,7 +70,7 @@ class Tabs2 extends React.Component {
         >
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/html.png" alt="HTML" width='64' />
+              <img src="./img/lang/html.png" alt="HTML" width='64' />
             </div>
             <br />
             HTML or Hyper Text Markup Language is the standard language used to write content and specify structure in web pages. The latest version is HTML5.
@@ -78,7 +78,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/css.png" alt="CSS" width='64' />
+              <img src="./img/lang/css.png" alt="CSS" width='64' />
             </div>
             <br />
             CSS stands for Cascading Style Sheets. It is used to style web pages. CSS is also used to animate HTML elements. However, due to its basic animation capability, most developers use JavaScript (e.g. Jquery) to handle animation.
@@ -86,7 +86,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/js.png" alt="JS" width='64' />
+              <img src="./img/lang/js.png" alt="JS" width='64' />
             </div>
             <br />
             JavaScript is not Java. Everything in JavaScript is an object. It could be used in any type of programming. However, most people use it in web development. It is dynamically typed language which means data types are associated with values not variables and the same variable could hold multiple types. One of the biggest feature in JavaScript is the eco-system and the support built around it.
@@ -95,7 +95,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/express.png" alt="Express" width='64' />
+              <img src="./img/lang/express.png" alt="Express" width='64' />
             </div>
             <br />
             Express is an open source framework built on top of NodeJS. The latter is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is designed for building web applications and APIs.
@@ -104,7 +104,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/react.png" alt="React" width='64' />
+              <img src="./img/lang/react.png" alt="React" width='64' />
             </div>
             <br />
             React is an open source library made by Facebook to create powerful Ui using JavaScript. React uses JSX to write HTML elements inside a JavaScript file. Everything in React is a component. Components have a state and could pass props to other components. React is usually used with a state manager (e.g. Redux) because things get pretty complexe in larger projects.
@@ -112,7 +112,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/git.png" alt="Git" width='64' />
+              <img src="./img/lang/git.png" alt="Git" width='64' />
             </div>
             <br />
             Git is an open source distributed version control system. This means you could track your progress and create multiple versions of your project. Also, Git allows you and your team to collaborate and work on the same project using different branches and merge them to the master branch if they are bug free.
@@ -120,7 +120,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/c++.png" alt="C++" width='64' />
+              <img src="./img/lang/c++.png" alt="C++" width='64' />
             </div>
             <br />
             C++ is OOP or object orinted programming langauge. Unlike JavaScript, it is statically typed langauge.
@@ -128,7 +128,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/matlab.gif" alt="MATLAB" width='64' />
+              <img src="./img/lang/matlab.gif" alt="MATLAB" width='64' />
             </div>
             <br />
             MATLAB is a software or rather a platform that uses its own language and syntax. Engineers use it due to its high computational capability. Evereything in MATLAB is a matrix.
@@ -136,7 +136,7 @@ class Tabs2 extends React.Component {
 
           <TabContainer dir={theme.direction}>
             <div style={{ textAlign: 'center' }}>
-              <img src="/img/lang/vhdl.png" alt="VHDL" width='64' />
+              <img src="./img/lang/vhdl.png" alt="VHDL" width='64' />
             </div>
             <br />
             VHDL stands for Very High Speed Integrated Circuit - Hardware Description Language. It is used to program electronic devices such as FPGAs. The code is executed in parallel (not concurrent) which means the whole code is executed all at once unless if you told it to run sequentially. VHDL allows you to specify timing specs regardless of the target hardware. These features are not supported in high level langauges such as C++.

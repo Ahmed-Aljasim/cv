@@ -73,7 +73,7 @@ class Exp extends Component {
               <Card className={classes.leftCard}>
                 <CardContent style={{ textAlign: 'center' }}>
                   <div style={{ textAlign: 'center' }}>
-                    <img src="/img/mt.png" alt="MT" width='128' id='imgExp' />
+                    <img src="./img/mt.png" alt="MT" width='128' id='imgExp' />
                   </div>
 
                   <Typography className={classes.title} color="textSecondary" gutterBottom>

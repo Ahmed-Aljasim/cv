@@ -14,15 +14,15 @@ import SwipeableViews from 'react-swipeable-views';
 const tutorialSteps = [
   {
     label: 'A Day at Work',
-    imgPath: '/img/44.jpg',
+    imgPath: './img/44.jpg',
   },
   {
     label: 'Oops...',
-    imgPath: '/img/2.jpg',
+    imgPath: './img/2.jpg',
   },
   {
     label: 'Certificate',
-    imgPath: '/img/x.png',
+    imgPath: './img/x.png',
   }
 ];
 

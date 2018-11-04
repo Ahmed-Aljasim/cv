@@ -50,7 +50,7 @@ class Edu extends Component {
           <Divider />
           <Card className={classes.leftCard}>
             <CardContent style={{ textAlign: 'center' }}>
-              <img src="/img/ksu.jpg" alt="KSU" width='128' id='imgEdu' />
+              <img src="./img/ksu.jpg" alt="KSU" width='128' id='imgEdu' />
               <div style={{ textAlign: 'center' }}>
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
                   King Saud University • Riyadh • 2010 - 2015
