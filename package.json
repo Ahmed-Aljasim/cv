@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahmed-aljasim.github.io/cv",
+  "homepage": "https://ahmed-aljasim.me",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
