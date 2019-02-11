@@ -6,9 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Skill from './Skill';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Divider from '@material-ui/core/Divider';
 import Tabs2 from './Tabs2';
-import Typography from '@material-ui/core/Typography';
 
 const styles = {
   title1: {
@@ -18,12 +16,14 @@ const styles = {
   card: {
     // minWidth: 575,
     marginTop: 24,
-    textAlign: 'left'
+    textAlign: 'left',
+    border: '1.5px solid black'
   },
   card1: {
     // minWidth: 575,
     marginTop: 24,
-    textAlign: 'left'
+    textAlign: 'left',
+    border: '1.5px solid black'
   }
 }
 
@@ -32,18 +32,15 @@ class Skills extends Component {
     const { classes } = this.props;
 
     return (
-      <div>
+      <div style={{ backgroundColor: '#e0e0e0' }}>
         <Grid id="container" container direction="row" alignItems="center" justify="space-around"
-          style={{ marginBottom: 128 }}
-        // style={{ borderBottom: '1px solid rgba(0, 0, 0, 0.12)' }}
-        >
+          style={{ marginBottom: 128 }}>
           <Hidden smDown>
             <Grid item xs='auto' />
           </Hidden>
 
           <Grid id='fw4' item xl={4} lg={4} md={4} sm={11} xs={11} style={styles.title1}>
             Programming Skills
-          <Divider />
             <Card className={classes.card1}>
               <CardContent>
                 <Skill text='HTML' score={90} />
@@ -73,11 +70,12 @@ class Skills extends Component {
             <Grid item xs='auto' />
           </Hidden>
 
-
         </Grid>
-        <Typography style={{ textAlign: 'center', marginBottom: 8 }}>
-          Ahmed Aljasim &copy; {new Date().getFullYear()}
-        </Typography>
+
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     );
   }

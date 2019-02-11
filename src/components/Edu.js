@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import Cert from './Cert';
@@ -13,6 +12,7 @@ import Tabs1 from './Tabs1';
 const styles = {
   page: {
     // borderBottom: '1px solid rgba(0, 0, 0, 0.12)'
+    backgroundColor: '#e0e0e0'
   },
   pageTitle: {
     textAlign: 'center'
@@ -22,9 +22,10 @@ const styles = {
   },
   leftCard: {
     marginTop: 24,
+    border: '1.5px solid black'
   },
   zz: {
-    marginTop: 24,
+    marginTop: 24
   }
 }
 
@@ -34,7 +35,7 @@ class Edu extends Component {
 
     const x = (
       <Grid item xl={5} lg={5} md={5} sm={12} xs={12}>
-        <Card>
+        <Card style={{ border: '1.5px solid black' }}>
           <Cert />
         </Card>
       </Grid>
@@ -47,10 +48,9 @@ class Edu extends Component {
         </Hidden>
         <Grid id='fw2' item xl={3} lg={3} md={4} sm={11} xs={11} className={classes.pageTitle} style={styles.zz}>
           Education
-          <Divider />
           <Card className={classes.leftCard}>
             <CardContent style={{ textAlign: 'center' }}>
-              <img src="./img/ksu.jpg" alt="KSU" width='128' id='imgEdu' />
+              <img src="./img/ksu.jpg" alt="KSU" width='128' />
               <div style={{ textAlign: 'center' }}>
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
                   King Saud University • Riyadh • 2010 - 2015
@@ -66,10 +66,14 @@ class Edu extends Component {
         </Grid>
 
         <Grid item xl={6} lg={6} md={6} sm={11} xs={11} style={styles.rightGrid}>
+          <br />
+          <br />
+          <br />
+          <br />
           <Grid container direction="row" alignItems="flex-end" justify="flex-start" spacing={24}>
 
             <Grid item xl={6} lg={6} md={7} sm={12} xs={12}>
-              <Card>
+              <Card style={{ border: '1.5px solid black' }}>
                 <Tabs1 />
               </Card>
             </Grid>
@@ -77,7 +81,7 @@ class Edu extends Component {
             <Hidden smDown>{x}</Hidden>
 
             <Grid item xl={11} lg={11} md={12} sm={12} xs={12}>
-              <Card>
+              <Card style={{ border: '1.5px solid black' }}>
                 <CardContent>
                   {/* <Typography variant="h5" component="h2" gutterBottom>
                     Graduation Project
@@ -87,7 +91,7 @@ class Edu extends Component {
                     Design and Manufacturing of a Mobile Serving Robot
                   </Typography>
                   <Typography gutterBottom>
-                    A multidisciplinary project between EEs and MEs students. The final prototype was a robot that is able to serve coffee on two manipulator arms, uses sensors to avoid obstacles, greets customers using a recorded speech, and uses <a style={{ color: 'black' }} target="_blank" href="https://www.festo-didactic.com/int-en/services/robotino/">Robotino</a> as a platform for controling the whole assembly and as a means of mobility.
+                    A multidisciplinary project between EEs and MEs students. The final prototype was a robot that is able to serve coffee on two manipulator arms, uses sensors to avoid obstacles, greets customers using a recorded speech, and uses <a style={{ color: 'black' }} rel="noopener noreferrer" target="_blank" href="https://www.festo-didactic.com/int-en/services/robotino/">Robotino</a> as a platform for controling the whole assembly and as a means of mobility.
                   </Typography>
 
                 </CardContent>
@@ -97,6 +101,14 @@ class Edu extends Component {
             <Hidden mdUp>{x}</Hidden>
 
           </Grid>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </Grid>
 
       </Grid >

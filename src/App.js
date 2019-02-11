@@ -34,7 +34,7 @@ class App extends Component {
         <Edu />
         <Exp />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Contact /> */}
       </MuiThemeProvider>
     );

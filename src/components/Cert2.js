@@ -29,14 +29,13 @@ const tutorialSteps = [
 const styles = theme => ({
   root: {
     // maxWidth: 400,
-    flexGrow: 1,
+    flexGrow: 1
   },
   header: {
     display: 'flex',
     alignItems: 'center',
     height: 50,
-    paddingLeft: theme.spacing.unit * 2,
-    backgroundColor: 'white',
+    paddingLeft: theme.spacing.unit * 2
   },
   img: {
     // height: 250,
@@ -112,6 +111,7 @@ class Cert2 extends React.Component {
           position="static"
           activeStep={activeStep}
           className={classes.mobileStepper}
+          style={{ backgroundColor: '#e0e0e0' }}
           nextButton={
             <Button size="small" onClick={this.handleNext} disabled={activeStep === maxSteps - 1}>
               Next

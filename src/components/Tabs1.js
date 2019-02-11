@@ -54,7 +54,7 @@ class Tabs1 extends React.Component {
           indicatorColor="primary"
           textColor="primary"
           // fullWidth
-          scrollable
+          variant="scrollable"
           scrollButtons="on"
         >
           <Tab label="EE405" classes={{ root: classes.tabRoot }} />

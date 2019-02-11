@@ -5,7 +5,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Divider from '@material-ui/core/Divider';
 
 const styles = {
   title1: {
@@ -15,7 +14,9 @@ const styles = {
   card1: {
     // minWidth: 375,
     marginTop: 24,
-    textAlign: 'center'
+    textAlign: 'center',
+    border: '1.5px solid black',
+    backgroundColor: '#e0e0e0'
   },
   title: {
     fontSize: 14,
@@ -35,7 +36,6 @@ class About extends Component {
 
         <Grid id='fw1' item xl={3} lg={3} md={4} sm={11} xs={11} style={styles.title1}>
           About me
-          <Divider />
           <Card className={classes.card1}>
             <CardContent>
               {/* <img src="/img/ksu.jpg" alt="AJ" width='128' /> */}
@@ -47,17 +47,17 @@ class About extends Component {
               </Typography>
 
               <Typography className={classes.title} color="textSecondary">
-                Marital Status
-              </Typography>
-              <Typography variant="subtitle1" component="h2" gutterBottom>
-                Single
-              </Typography>
-
-              <Typography className={classes.title} color="textSecondary">
                 Nationality
               </Typography>
               <Typography variant="subtitle1" component="h2" gutterBottom>
                 Syria
+              </Typography>
+
+              <Typography className={classes.title} color="textSecondary">
+                Marital Status
+              </Typography>
+              <Typography variant="subtitle1" component="h2" gutterBottom>
+                Single
               </Typography>
 
             </CardContent>

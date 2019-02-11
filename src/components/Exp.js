@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import Cert2 from './Cert2';
@@ -21,6 +20,8 @@ const styles = {
   },
   leftCard: {
     marginTop: 24,
+    border: '1.5px solid black',
+    backgroundColor: '#e0e0e0'
   },
   zz: {
     marginTop: 128,
@@ -53,7 +54,7 @@ class Exp extends Component {
 
     const y = (
       <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-        <Card>
+        <Card style={{ border: '1.5px solid black', backgroundColor: '#e0e0e0' }}>
           <Cert2 />
         </Card>
       </Grid>
@@ -63,17 +64,20 @@ class Exp extends Component {
       <Grid id="container" container direction="row" alignItems="center" justify="space-around" className={classes.page}>
 
         <Grid item xl={8} lg={8} md={8} sm={11} xs={11} >
+          <br />
+          <br />
+          <br />
+          <br />
           <Grid container direction="row" alignItems="flex-end" justify="center" spacing={24}>
 
             <Hidden smDown>{y}</Hidden>
 
             <Grid id='fw3' item xl={6} lg={6} md={6} sm={12} xs={12} className={classes.pageTitle} style={styles.zz}>
               Experience
-              <Divider />
               <Card className={classes.leftCard}>
                 <CardContent style={{ textAlign: 'center' }}>
                   <div style={{ textAlign: 'center' }}>
-                    <img src="./img/mt.png" alt="MT" width='128' id='imgExp' />
+                    <img src="./img/mt.png" alt="MT" width='128' />
                   </div>
 
                   <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -87,12 +91,20 @@ class Exp extends Component {
             </Grid>
 
             <Grid item md={12} xs={12}>
-              <Card>{x}</Card>
+              <Card style={{ border: '1.5px solid black', backgroundColor: '#e0e0e0' }}>{x}</Card>
             </Grid>
 
             <Hidden mdUp>{y}</Hidden>
 
           </Grid>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </Grid>
       </Grid >
     );

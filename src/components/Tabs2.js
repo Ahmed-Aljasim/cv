@@ -49,7 +49,7 @@ class Tabs2 extends React.Component {
       <div className={classes.root}>
         <div style={{ padding: 20, fontSize: 25, cursor: 'default' }}>What is... ?</div>
         <Tabs
-          value={this.state.value} onChange={this.handleChange} indicatorColor="primary" textColor="primary" scrollable scrollButtons="on" style={{ overflow: 'hidden' }}
+          value={this.state.value} onChange={this.handleChange} indicatorColor="primary" textColor="primary" variant="scrollable" scrollButtons="on" style={{ overflow: 'hidden' }}
         //fullWidth
         >
           <Tab label="HTML" classes={{ root: classes.tabRoot }} />
