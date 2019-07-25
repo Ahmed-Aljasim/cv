@@ -87,10 +87,10 @@ class Edu extends Component {
                     Graduation Project
                   </Typography> */}
                   <div style={{ paddingBottom: 10, fontSize: 25, cursor: 'default' }}>Graduation Project</div>
-                  <Typography variant="subtitle1" component="h2" gutterBottom>
+                  <Typography variant="subtitle2" component="h2" gutterBottom>
                     Design and Manufacturing of a Mobile Serving Robot
                   </Typography>
-                  <Typography gutterBottom>
+                  <Typography variant="body2" gutterBottom>
                     A multidisciplinary project between EEs and MEs students. The final prototype was a robot that is able to serve coffee on two manipulator arms, uses sensors to avoid obstacles, greets customers using a recorded speech, and uses <a style={{ color: 'black' }} rel="noopener noreferrer" target="_blank" href="https://www.festo-didactic.com/int-en/services/robotino/">Robotino</a> as a platform for controling the whole assembly and as a means of mobility.
                   </Typography>
 

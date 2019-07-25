@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
-import Hidden from '@material-ui/core/Hidden';
+// import Hidden from '@material-ui/core/Hidden';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
@@ -40,19 +40,19 @@ class Projects extends Component {
   render() {
     const { classes } = this.props;
 
-    const x = (
-      <Grid item xl={3} lg={3} md={3} sm={11} xs={11} className={classes.pageTitle} style={styles.zz}>
-        <Card className={classes.leftCard}>
-          <CardContent style={{ textAlign: 'center' }}>
-            <div style={{ textAlign: 'center' }}>
-              <Typography className={classes.title} color="textSecondary" gutterBottom>
-                King Saud University • Riyadh • 2010 - 2015
-              </Typography>
-            </div>
-          </CardContent>
-        </Card>
-      </Grid>
-    );
+    // const x = (
+    //   <Grid item xl={3} lg={3} md={3} sm={11} xs={11} className={classes.pageTitle} style={styles.zz}>
+    //     <Card className={classes.leftCard}>
+    //       <CardContent style={{ textAlign: 'center' }}>
+    //         <div style={{ textAlign: 'center' }}>
+    //           <Typography className={classes.title} color="textSecondary" gutterBottom>
+    //             King Saud University • Riyadh • 2010 - 2015
+    //           </Typography>
+    //         </div>
+    //       </CardContent>
+    //     </Card>
+    //   </Grid>
+    // );
 
     return (
       <div>
@@ -100,7 +100,7 @@ class Projects extends Component {
         <br />
         <br />
         <Typography style={{ textAlign: 'center', paddingBottom: 8 }}>
-          Ahmed Aljasim &copy; {new Date().getFullYear()}
+          2017 - {new Date().getFullYear()}
         </Typography>
       </div >
     );

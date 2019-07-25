@@ -33,7 +33,6 @@ class About extends Component {
           marginTop: 24,
           // borderBottom: '1px solid rgba(0, 0, 0, 0.12)' 
         }} >
-
         <Grid id='fw1' item xl={3} lg={3} md={4} sm={11} xs={11} style={styles.title1}>
           About me
           <Card className={classes.card1}>

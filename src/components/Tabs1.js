@@ -78,7 +78,7 @@ class Tabs1 extends React.Component {
             <span style={{ fontSize: 17 }}>Computer Architecture</span>
             <br />
             <br />
-            Computers come in many different ways but regardless of that they almost all operate in the same way.
+            Computers come in many different ways but regardless of that they almost all operate in the same way. A program counter will control the execution of the program written in ROM. Each instruction will do some processing and store the result in RAM or registers. The flow of the program will change based on some flags e.g. interrupt..
           </TabContainer>
           <TabContainer dir={theme.direction}>
             <span style={{ fontSize: 17 }}>Advanced Logic Design</span>

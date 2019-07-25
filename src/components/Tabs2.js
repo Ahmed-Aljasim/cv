@@ -123,7 +123,7 @@ class Tabs2 extends React.Component {
               <img src="./img/lang/c++.png" alt="C++" width='64' />
             </div>
             <br />
-            C++ is OOP or object orinted programming langauge. Unlike JavaScript, it is statically typed langauge.
+            C++ is OOP or object orinted programming langauge. Unlike JavaScript, it is statically typed langauge. It is used in writting code for operating systems and embedded systems. Compared to JavaScript, C++ is much more difficult to learn.
           </TabContainer>
 
           <TabContainer dir={theme.direction}>
@@ -131,7 +131,7 @@ class Tabs2 extends React.Component {
               <img src="./img/lang/matlab.gif" alt="MATLAB" width='64' />
             </div>
             <br />
-            MATLAB is a software or rather a platform that uses its own language and syntax. Engineers use it due to its high computational capability. Evereything in MATLAB is a matrix.
+            MATLAB is a software or rather a platform that uses its own language and syntax. Engineers use it due to its high computational and simulation capabilities. It also features some tools that allows you to do DSP design or AI easily. Evereything in MATLAB is a matrix.
           </TabContainer>
 
           <TabContainer dir={theme.direction}>

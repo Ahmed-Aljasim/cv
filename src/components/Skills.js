@@ -58,7 +58,7 @@ class Skills extends Component {
 
           <Grid item xl={4} lg={4} md={4} sm={11} xs={11}>
             <Grid container direction='column' justify='center'>
-              <Grid item md='auto' xs={12}>
+              <Grid item xs={12}>
                 <Card className={classes.card}>
                   <Tabs2 />
                 </Card>

@@ -36,7 +36,7 @@ class Exp extends Component {
       <CardContent style={{ textAlign: 'left' }}>
         <div style={{ paddingBottom: 10, fontSize: 25, cursor: 'default' }}>Job Duties</div>
 
-        <Typography gutterBottom>
+        <Typography variant="body2" gutterBottom>
           1- Understanding business technical requirements, and searching for the best suitable supplier and solution.
           <br />
           2- Effectively communicatng with hardware suppliers & manufacturers for telematics devices procurement.
